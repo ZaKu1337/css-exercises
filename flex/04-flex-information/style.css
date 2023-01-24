@@ -8,8 +8,11 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +27,13 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 52px;
+}
+ .info > div {
+  max-width: 200px;
+ }
