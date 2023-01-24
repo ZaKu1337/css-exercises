@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -30,11 +33,13 @@ body {
 }
 
 button {
+  flex-shrink: 0;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: auto;
 }
 
 a {
@@ -45,4 +50,27 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.links {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  margin-right: 8px;
+}
+
+.left {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.right {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
